@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/BookingForm.js", "components/RoomList.js", "pages/api/auth.js", "pages/api/booking.js", "pages/api/index.js", "pages/api/login.js", "pages/api/reports.js", "pages/api/rooms.js"],
   "exclude": ["node_modules"]
 }
